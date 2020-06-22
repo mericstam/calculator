@@ -38,7 +38,7 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-            az deployment group create --resource-group calculator-web-app --template-file ./templates/template.json --parameters @parameters.json
+            az deployment group create --resource-group calculator-web-app --template-file ./templates/template.json --parameters ./templates/@parameters.json
   build-and-deploy:
     name: Build and Deploy
     runs-on: ubuntu-latest
