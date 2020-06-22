@@ -5,7 +5,7 @@ a pocket calculator.
 
 The project contains a simple node.js application that exposes REST APIs
 to perform arithmetic on integers, and provides a test suite with mocha
-and chai. The `mocha-junit-reporters` package is included to provide XML
+and chai.  The `mocha-junit-reporters` package is included to provide XML
 output that can be presented in a test coverage tool.
 
 To build, simply:
