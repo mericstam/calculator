@@ -15,5 +15,5 @@ To build, simply:
 
 To deploly to Azure: (Uses azure.yml workflow)
 
-1. Set up your Azure publish profile in secrets
+1. Set up your Azure SPN in secrets
 2. Create a release
